@@ -18,7 +18,7 @@ struct TreeNode {
 };
 
 
- 
+
 
 
 int main(){
@@ -34,4 +34,5 @@ int main(){
 
     struct TreeNode *ans = lowestCommonAncestor (&three, &zero, &four);
     printf ("%d\n", ans->val);
+    
 }

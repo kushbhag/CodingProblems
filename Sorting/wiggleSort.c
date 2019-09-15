@@ -24,10 +24,10 @@ void wiggleSort(int* nums, int numsSize){
         mid = (numsSize / 2);
     }
     int end = numsSize - 1;
-    
+
     int i = 0;
 
-    while (1){ 
+    while (1){
         if (mid >= 0){
             arr[i] = nums[mid];
             i ++;
@@ -55,4 +55,5 @@ int main (){
     for (int i = 0; i < len; i ++){
         printf ("%d ", arr[i]);
     }
+    
 }
